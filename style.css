@@ -1,0 +1,87 @@
+html {
+  background-color: #2b064f;
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #ffffff;
+  text-shadow: 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 5px #ffffff,
+    0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de,
+    0 0 35px #ff00de;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.buttons-contoller {
+  display: flex;
+  justify-content: space-between;
+}
+
+.startButton,
+.skipButton {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  color: #cac75b;
+  background-color: #1b1b4f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.startButton:hover,
+.skipButton:hover {
+  color: #70691c;
+}
+
+.skipButton:disabled {
+  opacity: 0.8;
+  color: #1b1b4f;
+  cursor: default;
+}
+
+.question {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+/* .quiz {
+  background-color: #ca9b5b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(32, 2, 70, 0.5);
+} */
+
+.variants-controller {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.variants-card {
+  background-color: #17022d;
+  color: white;
+  padding: 30px;
+  cursor: pointer;
+  width: 23%;
+  margin: 0 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(250, 250, 250, 0.5);
+}
+
+.variants-card:hover {
+  background-color: rgb(48, 48, 48);
+}
+
+.prize-info {
+  color: #cac133;
+  font-size: 20px;
+  padding-top: 10px;
+}
